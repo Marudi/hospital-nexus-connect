@@ -1,0 +1,74 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?/$1 [L]
+
+
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+deny from 220.247.167.85
+deny from 5.35.69.6/31
+deny from 5.35.69.8/29
+deny from 5.35.69.16/28
+deny from 5.35.69.32/27
+deny from 5.35.69.64/26
+deny from 5.35.69.128/25
+deny from 5.35.70.0/23
+deny from 5.35.72.0/21
+deny from 5.35.80.0/20
+deny from 5.35.96.0/19
+deny from 5.35.128.0/17
+deny from 178.20.47.92/30
+deny from 178.20.47.96/27
+deny from 178.20.47.128/25
+deny from 178.20.48.0/20
+deny from 178.20.64.0/18
+deny from 178.20.128.0/17
+deny from 116.212.142.80/28
+deny from 116.212.142.96/27
+deny from 116.212.142.128/25
+deny from 116.212.143.0/24
+deny from 116.212.144.0/20
+deny from 116.212.160.0/19
+deny from 116.212.192.0/18
+deny from 45.134.79.149
+deny from 45.134.79.150/31
+deny from 45.134.79.152/29
+deny from 45.134.79.160/27
+deny from 45.134.79.192/26
+deny from 45.134.80.0/20
+deny from 45.134.96.0/19
+deny from 45.134.128.0/17
+deny from 47.128.62.191
+deny from 47.128.62.192/26
+deny from 47.128.63.0/24
+deny from 47.128.64.0/18
+deny from 47.128.128.0/17
+deny from 47.128.0.0/16
+deny from 45.164.0.0/16
+deny from 47.128.48.254/31
+deny from 47.128.49.0/24
+deny from 47.128.50.0/23
+deny from 47.128.52.0/22
+deny from 47.128.56.0/21
+deny from 47.0.0.0/8
+deny from 194.50.0.0/16
+deny from 167.94.0.0/16
+deny from 206.168.0.0/16
+deny from 43.153.0.0/16
+deny from 45.134.0.0/16
+deny from 197.0.0.0/8
+deny from 80.0.0.0/8
+deny from 185.0.0.0/8
+deny from 66.0.0.0/8
+deny from 157.0.0.0/8
+deny from 52.0.0.0/8
+deny from 40.0.0.0/8
+deny from 134.0.0.0/8
+deny from 80.85.0.0/16
+deny from 5.35.0.0/16
+deny from 125.0.0.0/8

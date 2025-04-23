@@ -1,0 +1,245 @@
+/**
+ * Security Alerts CSS
+ */
+
+/* Alert severity styling */
+.severity-critical td:nth-child(4) {
+    border-left: 4px solid #dd4b39;
+}
+.severity-high td:nth-child(4) {
+    border-left: 4px solid #f39c12;
+}
+.severity-medium td:nth-child(4) {
+    border-left: 4px solid #3c8dbc;
+}
+.severity-low td:nth-child(4) {
+    border-left: 4px solid #00c0ef;
+}
+
+/* Unread alert styling */
+.alert-unread {
+    font-weight: bold;
+    background-color: #f5f5f5;
+}
+
+/* Alert counter badge styling */
+.security-alert-counter {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px 5px;
+    border-radius: 50%;
+    background-color: #dd4b39;
+    color: #fff;
+}
+
+/* Alert dashboard boxes */
+.alert-summary-box {
+    border-radius: 3px;
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.alert-summary-box.critical {
+    background-color: #dd4b39;
+    color: #fff;
+}
+
+.alert-summary-box.high {
+    background-color: #f39c12;
+    color: #fff;
+}
+
+.alert-summary-box.medium {
+    background-color: #3c8dbc;
+    color: #fff;
+}
+
+.alert-summary-box.low {
+    background-color: #00c0ef;
+    color: #fff;
+}
+
+.alert-summary-box .inner {
+    padding: 10px;
+}
+
+.alert-summary-box .inner h3 {
+    font-size: 38px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    white-space: nowrap;
+    padding: 0;
+}
+
+.alert-summary-box .inner p {
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.alert-summary-box .icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 60px;
+    color: rgba(0,0,0,0.15);
+}
+
+.alert-summary-box .alert-box-footer {
+    background-color: rgba(0,0,0,0.1);
+    color: rgba(255,255,255,0.8);
+    display: block;
+    text-align: center;
+    padding: 3px 0;
+    position: relative;
+    text-decoration: none;
+    z-index: 10;
+}
+
+.alert-summary-box .alert-box-footer:hover {
+    color: #fff;
+    background-color: rgba(0,0,0,0.15);
+}
+
+/* Filter panel */
+.filter-panel {
+    margin-bottom: 20px;
+    border: 1px solid #f4f4f4;
+    padding: 15px;
+    border-radius: 3px;
+    background-color: #fafafa;
+}
+
+.filter-panel .filter-title {
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+}
+
+/* Alert details */
+.alert-details-table th {
+    width: 25%;
+    background-color: #f9f9f9;
+}
+
+.alert-details-message {
+    padding: 15px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.alert-details-message.critical {
+    background-color: #fde9e8;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+}
+
+.alert-details-message.high {
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    color: #856404;
+}
+
+.alert-details-message.medium {
+    background-color: #cce5ff;
+    border: 1px solid #b8daff;
+    color: #004085;
+}
+
+.alert-details-message.low {
+    background-color: #d1ecf1;
+    border: 1px solid #bee5eb;
+    color: #0c5460;
+}
+
+/* Alert notifications dropdown */
+.alerts-dropdown {
+    min-width: 300px;
+    padding: 0;
+}
+
+.alerts-dropdown .header {
+    padding: 10px;
+    border-bottom: 1px solid #f4f4f4;
+    font-weight: bold;
+}
+
+.alerts-dropdown .menu {
+    max-height: 200px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow-x: hidden;
+}
+
+.alerts-dropdown .menu > li > a {
+    display: block;
+    white-space: nowrap;
+    border-bottom: 1px solid #f4f4f4;
+    color: #444;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px;
+}
+
+.alerts-dropdown .menu > li > a:hover {
+    background-color: #f4f4f4;
+    text-decoration: none;
+}
+
+.alerts-dropdown .footer {
+    padding: 5px 10px;
+    border-top: 1px solid #f4f4f4;
+    text-align: center;
+}
+
+.alerts-dropdown .footer a {
+    color: #444;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* Alert status labels */
+.label-critical {
+    background-color: #dd4b39;
+}
+
+.label-high {
+    background-color: #f39c12;
+}
+
+.label-medium {
+    background-color: #3c8dbc;
+}
+
+.label-low {
+    background-color: #00c0ef;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .alert-summary-box .inner {
+        padding: 10px;
+    }
+    
+    .alert-summary-box .inner h3 {
+        font-size: 24px;
+    }
+    
+    .alert-summary-box .icon {
+        font-size: 40px;
+    }
+    
+    .filter-panel {
+        padding: 10px;
+    }
+    
+    .alerts-dropdown {
+        min-width: 250px;
+    }
+} 

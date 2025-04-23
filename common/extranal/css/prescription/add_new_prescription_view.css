@@ -1,0 +1,248 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 13, 2021, 11:27:50 PM
+    Author     : sahas
+*/
+
+form{
+    border: 0px;
+}
+
+.med_selected{
+    background: #fff;
+    padding: 10px 0px;
+    margin: 5px;
+}
+
+.select2-container--bgform .select2-selection--multiple .select2-selection__choice {
+    clear: both !important;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: 500; 
+    font-weight: bold;
+}
+
+.medicine_block{
+    background: #f1f2f7;
+    padding: 50px !important;
+    position: relative;
+}
+
+form input{
+    text-align: left;
+}
+
+.medi_div{
+    float: left !important;
+}
+
+/* Drug Interaction Warning Styles */
+.drug-interaction-warning {
+    background-color: #fff3cd !important;
+    border: 2px solid #ffc107 !important;
+    border-radius: 4px !important;
+    padding: 15px !important;
+    margin: 15px 0 !important;
+    clear: both !important;
+    width: 100% !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+}
+
+/* Enhanced interaction details section */
+#interaction_details {
+    margin-top: 20px !important;
+    display: block !important; /* Display by default to ensure it's visible */
+}
+
+/* Make interaction details more visually appealing */
+.drug-interactions-column .card {
+    margin-bottom: 15px !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.drug-interactions-column .card:hover {
+    transform: translateY(-3px) !important;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1) !important;
+}
+
+.drug-interactions-column .card-header {
+    padding: 12px 15px !important;
+    font-weight: 600 !important;
+}
+
+.drug-interactions-column .card-body {
+    padding: 15px !important;
+}
+
+/* Make the warning more eye-catching */
+#drug_interaction_warning_container {
+    margin-bottom: 20px !important;
+    width: 100% !important;
+    display: block !important;
+    clear: both !important;
+}
+
+#drug_interaction_warning_container .alert {
+    margin-bottom: 0 !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important;
+}
+
+.drug-interaction-warning h5 {
+    color: #856404 !important;
+    margin-bottom: 15px !important;
+    font-weight: 600 !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.drug-interaction-warning h5 i {
+    margin-right: 10px !important;
+    color: #dc3545 !important;
+}
+
+.interaction-item {
+    background: #fff !important;
+    border-left: 4px solid #dc3545 !important;
+    padding: 18px !important;
+    margin-bottom: 20px !important;
+    border-radius: 0 4px 4px 0 !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05) !important;
+}
+
+.interaction-item:last-child {
+    margin-bottom: 0 !important;
+}
+
+.interaction-item strong {
+    color: #721c24 !important;
+    display: block !important;
+    margin-bottom: 8px !important;
+}
+
+.interaction-item p {
+    color: #555 !important;
+    margin-bottom: 8px !important;
+}
+
+.interaction-item small {
+    color: #6c757d !important;
+    font-style: italic !important;
+}
+
+/* Right Column Styles */
+.drug-interactions-column {
+    background: #fff !important;
+    border-radius: 4px !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+}
+
+.drug-interactions-column .card-header {
+    background-color: #f8f9fa !important;
+    border-bottom: 1px solid #dee2e6 !important;
+    padding: 15px !important;
+}
+
+.drug-interactions-column .card-body {
+    padding: 20px !important;
+}
+
+/* Make warnings more prominent */
+.alert-danger {
+    background-color: #f8d7da !important;
+    border-color: #f5c6cb !important;
+    color: #721c24 !important;
+}
+
+.alert-warning {
+    background-color: #fff3cd !important;
+    border-color: #ffeeba !important;
+    color: #856404 !important;
+}
+
+/* Ensure warnings are visible above other content */
+.drug-interaction-warning {
+    position: relative !important;
+    z-index: 100 !important;
+}
+
+.alert-warning h6 {
+    color: #856404;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.alert-warning .fa-exclamation-triangle {
+    color: #856404;
+    margin-right: 0.5rem;
+}
+
+.alert-warning p {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.alert-warning strong {
+    font-weight: 600;
+}
+
+.alert-warning p:last-child {
+    margin-bottom: 0;
+}
+
+.med_selected {
+    position: relative;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.medicine_sect {
+    flex: 0 0 auto;
+}
+
+#interaction_warning {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.del {
+    flex: 0 0 auto;
+}
+
+.interaction-details p {
+    line-height: 1.6 !important;
+    margin-bottom: 1rem !important;
+    text-align: justify !important;
+}
+
+.interaction-details strong {
+    color: #444 !important;
+    font-weight: 600 !important;
+}
+
+.interaction-details br {
+    display: block !important;
+    content: "" !important;
+    margin-top: 0.5rem !important;
+}
+
+.drug-interactions-column .card {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08) !important;
+    border-radius: 6px !important;
+    overflow: hidden !important;
+}
+
+/* Format clinical impact and intervention sections */
+.interaction-details strong + br {
+    display: none !important;
+}

@@ -1,0 +1,42 @@
+table{
+	width: 100% !important;
+}
+.profile-image {
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ background: #337ab7;
+ font-size: 25px;
+ color: #fff;
+ text-align: center;
+ line-height: 33px;
+ margin: 0 auto;
+}
+
+.right-sidebar{
+	width:600px;
+	display: none;
+}
+.right-sidebar-th{
+	min-width:150px;
+}
+.outer-round{
+    height:0px !important;
+}
+
+.dropdown-menu-header-inner-round{
+    border-radius: 4px;
+}
+
+.f-30{
+    font-size:30px !important;
+}
+
+.collapse-accordion{
+    height:250px;
+    overflow-y: scroll;
+}
+
+.app-header__logo .logo-src {
+    max-height: 50px !important;
+}

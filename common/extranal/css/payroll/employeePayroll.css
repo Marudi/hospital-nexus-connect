@@ -1,0 +1,16 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 14, 2021, 12:29:39 PM
+    Author     : shaibalsaha
+*/
+
+.employee_div{
+    padding: 15px 0px;
+}
+#payroll_year,#payroll_month{
+    width: 100%;
+}

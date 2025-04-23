@@ -1,0 +1,229 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 13, 2021, 11:38:26 AM
+    Author     : shaibalsaha
+*/
+.btn-default{
+
+    color: #000 !important;
+    margin-top: 0;
+    height: 37px !important;
+
+}
+.dropdown-toggle{
+    background: #fff;
+}
+.span_color{
+    color:blue !important;
+}
+.w_current_width{
+    width:200px !important;
+}
+.c_feature_image{
+    opacity:0 !important;
+}
+.service_div{
+    margin:10px 50px !important;
+}
+.content_div{
+    text-align: center !important;
+    margin: 50px 0px !important;
+}
+.img_style{
+    height: 100px !important; 
+    border-radius: 100px !important; 
+    margin-bottom: 25px !important;
+}
+.h2_heading{
+    color: green !important;
+}
+.country_div{
+    padding-left: 0 !important;
+}
+.remark_div{
+    padding-right: 0 !important;
+}
+.trial_version{
+    display:inline !important;
+}
+.submit_button{
+    margin-left:47% !important;
+}
+.l_container{
+    margin-top:-100px !important;
+}
+.package_div{
+    margin-bottom:20px !important;
+}
+.recommended_div{
+    padding-bottom: 15px !important;
+    background: #fff !important;
+    margin-bottom: -19px !important;
+}
+.recommended_div1{
+    padding-bottom: 15px !important;
+    background: #447CE3 !important;
+    color:#fff !important;
+    margin-bottom: -19px !important;
+}
+.li_list{
+    text-transform: capitalize !important;
+    font-size: 16px !important; 
+    color: #447CE3 !important;
+}
+.fa-check{
+    color:#447CE3 !important;
+}
+.fa-times{
+    color:red !important;
+}
+.monthly_text{
+    color:white ;
+}
+.yearly_text{
+    color:#1b7989;
+}
+.hs_field_desc{
+    display:none !important;
+}
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.hs-form {
+    margin-top: 32px;
+    width: 100%;
+}
+
+.hs-form label {
+    margin-bottom: 8px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* label * - required signifier */
+.hs-form label .hs-form-required {
+    display: none;
+    color: #e93434;
+}
+
+.hs-form .hs-input {
+    display: block;
+    width: 100%;
+    height: 48px;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.hs-form input:focus,
+.hs-form textarea:focus {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #434de1;
+}
+
+/* input field error message */
+.hs-form .hs-input.error {
+    border-color: #e93434;
+}
+
+.hs-form fieldset.form-columns-1 textarea.hs-input {
+    min-height: 150px;
+}
+
+/* error messages */
+.hs-form ul.hs-error-msgs {
+    list-style-type: none;
+    padding: 0;
+}
+
+.hs-form ul.hs-error-msgs li {
+    padding: 0;
+}
+
+.hs-form ul.hs-error-msgs li label {
+    font-size: 12px;
+}
+
+/* action/button styles */
+.hs-form .actions {
+    margin-top: 32px;
+    text-align: center;
+}
+
+.hs-button {
+    width: 50%;
+    margin-top: 0;
+    margin-right: auto;
+    padding: 16px;
+    border-radius: 0;
+    background-color: #434de1;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.hs-button:hover {
+    background-color: #333bb6;
+}
+
+/* 2-column adjustments */
+.hs-form fieldset.form-columns-2 .hs-form-field {
+    width: 45%;
+}
+
+.hs-form fieldset.form-columns-2 .field:first-child {
+    margin-right: 32px;
+}
+
+.hs-form fieldset.form-columns-2 .input {
+    margin-right: 0;
+}
+
+/* form field generic styles */
+.hs-form fieldset {
+    max-width: 100%;
+}
+
+.hs-form-field {
+    margin-bottom: 16px;
+}
+
+/* single column styles */
+.hs-form fieldset.form-columns-1 .input {
+    margin-right: 0;
+}
+
+.hs-form fieldset.form-columns-1 .hs-input {
+    width: 98%;
+}
+
+/* fully vertical form layout for portrait mode */
+@media screen and (max-width: 568px) {
+    .hs-form fieldset.form-columns-2 .field {
+        width: 100%;
+    }
+
+    .hs-form fieldset.form-columns-2 .field:first-child {
+        margin-right: 0;
+    }
+
+    .hs-button {
+        width: 70%;
+    }
+
+}

@@ -1,0 +1,22 @@
+.img_url{
+    height:20px;
+    width:20px;
+    background-size: contain; 
+    max-height:20px;
+    border-radius: 100px;
+}
+table{
+    width: 100% !important;
+}
+#myModal,#myModal2,#myModal4{
+    display: none;
+}
+.med_his{
+    width: 80% !important;
+}
+.task-thumb{
+    margin-right: 10px !important;
+}
+.buttoncolor{
+    color: #fff !important;
+}

@@ -1,0 +1,81 @@
+{
+    "General Settings": {
+        "site_title": {
+            "id": "site_title",
+            "type": "text",
+            "label": "Site Title",
+            "default": "KlinicX",
+            "description": "The title of your website"
+        },
+        "logo": {
+            "id": "logo",
+            "type": "image",
+            "label": "Logo",
+            "default": "uploads/Klinicx_Logo_100x100.jpg",
+            "description": "Upload your site logo"
+        },
+        "favicon": {
+            "id": "favicon",
+            "type": "image",
+            "label": "Favicon",
+            "default": "uploads/favicon1.png",
+            "description": "Upload your site favicon"
+        }
+    },
+    "Colors": {
+        "primary_color": {
+            "id": "primary_color",
+            "type": "color",
+            "label": "Primary Color",
+            "default": "#3c8dbc",
+            "description": "Main theme color"
+        },
+        "secondary_color": {
+            "id": "secondary_color",
+            "type": "color",
+            "label": "Secondary Color",
+            "default": "#f39c12",
+            "description": "Secondary theme color"
+        },
+        "body_background": {
+            "id": "body_background",
+            "type": "color",
+            "label": "Body Background",
+            "default": "#f4f4f4",
+            "description": "Background color of the body"
+        }
+    },
+    "Footer": {
+        "footer_text": {
+            "id": "footer_text",
+            "type": "textarea",
+            "label": "Footer Text",
+            "default": "© 2023 KlinicX. All rights reserved.",
+            "description": "Text displayed in the footer"
+        },
+        "show_social_icons": {
+            "id": "show_social_icons",
+            "type": "checkbox",
+            "label": "Social Media Icons",
+            "checkbox_label": "Show social media icons in footer",
+            "default": 1,
+            "description": "Display social media icons in the footer"
+        }
+    },
+    "Advanced": {
+        "custom_css": {
+            "id": "custom_css",
+            "type": "custom_css",
+            "label": "Custom CSS",
+            "default": "",
+            "description": "Add your custom CSS styles"
+        },
+        "custom_js": {
+            "id": "custom_js",
+            "type": "custom_js",
+            "label": "Custom JavaScript",
+            "default": "",
+            "description": "Add your custom JavaScript code"
+        }
+    }
+} 

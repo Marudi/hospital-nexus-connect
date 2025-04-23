@@ -1,0 +1,482 @@
+.send{
+    background-color: #339FCC !important;
+    color:#FFFFFF;
+}
+.detailssale td,.detailssale th{
+    text-align: center !important ;
+}
+
+.detailssale tr.total{
+    color: green !important;
+}
+
+
+
+.control-label{
+    width: 100px;
+}
+
+
+
+h1{
+    margin-top: 5px;
+}
+
+
+.print_width{
+    width: 50%;
+    float: left;
+} 
+
+ul.amounts li {
+    padding: 0px !important;
+}
+
+.invoice-list {
+    margin-bottom: 10px;
+}
+
+
+
+
+.panel{
+    border: 0px solid #5c5c47;
+    background: #fff !important;
+    height: 100%;
+    margin: 20px 5px 5px 5px;
+    border-radius: 0px !important;
+    min-height: 700px;
+
+}
+
+
+
+.table.main{
+    margin-top: -50px;
+}
+
+
+
+.control-label{
+    margin-bottom: 0px;
+}
+
+tr.total td{
+    color: green !important;
+}
+
+.theadd th{
+    background: #edfafa !important;
+    background: #fff!important;
+}
+
+td{
+    font-size: 12px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.details{
+    font-weight: bold;
+}
+
+hr{
+    border-bottom: 0px solid #f1f1f1 !important;
+}
+
+.corporate-id {
+    margin-bottom: 5px;
+}
+
+.adv-table table tr td {
+    padding: 5px 10px;
+}
+
+
+
+.btn{
+    margin: 10px 10px 10px 0px;
+}
+
+.invoice_head_left h3{
+    color: #2f80bf !important;
+}
+
+
+.invoice_head_right{
+    margin-top: 10px;
+}
+
+.invoice_footer{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen {
+    div.divFooter {
+        display: none;
+    }
+    .paid_or_due{
+        display: none;
+    }
+    .logo_img{
+        height: 100px;
+    }
+}
+.logotitle{
+    margin-top: 20px !important;
+}
+.send{
+    background-color: #339FCC !important;
+    color:#FFFFFF;
+}
+.detailssale td,.detailssale th{
+    text-align: center !important ;
+}
+
+.detailssale tr.total{
+    color: green !important;
+}
+
+
+
+.control-label{
+    width: 100px;
+}
+
+
+
+h1{
+    margin-top: 5px;
+}
+h2 {
+    margin-bottom: -11px;
+    font-size:20px !important;
+
+}
+.headline{
+    font-weight: bold;
+    font-size: 26px;
+    font-style: italic;
+}
+
+.print_width{
+    width: 50%;
+    float: left;
+} 
+
+ul.amounts li {
+    padding: 0px !important;
+}
+
+.invoice-list {
+    margin-bottom: 10px;
+}
+
+
+
+
+.panel{
+    border: 0px solid #5c5c47;
+    background: #fff !important;
+    height: 100%;
+    margin: 20px 5px 5px 5px;
+    border-radius: 0px !important;
+    min-height: 700px;
+
+}
+
+
+
+.table.main{
+    margin-top: -50px;
+}
+
+
+
+.control-label{
+    margin-bottom: 0px;
+}
+
+tr.total td{
+    color: green !important;
+}
+
+.theadd th{
+    background: #edfafa !important;
+    background: #fff!important;
+}
+
+td{
+    font-size: 12px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.details{
+    font-weight: bold;
+}
+
+hr{
+    border-bottom: 0px solid #f1f1f1 !important;
+}
+
+.corporate-id {
+    margin-bottom: 5px;
+}
+
+.adv-table table tr td {
+    padding: 5px 10px;
+}
+
+
+
+.btn{
+    margin: 10px 10px 10px 0px;
+}
+
+h3{
+
+    font-style:italic; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-weight: bold;
+    font-size:18px !important;
+}
+
+
+.invoice_head_right{
+    margin-top: 10px;
+}
+
+
+
+.invoice-block{
+    padding-right: 51px;
+}
+
+
+.ref_by{
+    font-weight: bold;
+}
+.logo_print{
+    width: 18% !important;
+}
+.header_logo{
+    width: 82% !important;
+    margin-top: -13px;
+}
+.eng_header{
+    margin-top: 0px;
+}
+.img_header{
+    width: 87%;
+    margin-top: 19px;
+}
+
+
+
+@media print {
+    .logotitle{
+        margin-top: 20px !important;
+    }
+    h1{
+        margin-top: 5px;
+    }
+    h2 {
+        margin-bottom: -11px;
+        font-size:14px !important;
+    }
+    .headline{
+        font-style: italic !important;
+        font-family: "Times New Roman", Times, serif !important;
+        font-weight: bold;
+        font-size: 16px;
+
+    }
+    em {
+        font-style: italic !important;
+    }
+    h3{
+
+        font-style:italic; 
+
+        font-weight: bold;
+        font-size:12px !important;
+
+    }
+    h5{
+        font-size: 11px;
+    }
+    .invoice_list h4{
+        font-size: 5px !important;
+    }
+    #main-content{
+        padding-top: 0px;
+    }
+
+    .print_width{
+        width: 50%;
+        float: left;
+    } 
+
+    ul.amounts li {
+        padding: 0px !important;
+    }
+
+    .invoice-list {
+        margin-bottom: 5px;
+    }
+
+    .wrapper{
+        margin-top: 0px;
+    }
+
+    .wrapper{
+        padding: 0px 0px !important;
+        background: #fff !important;
+
+    }
+
+    .panel{
+        border: 0px solid #5c5c47;
+        background: #fff !important;
+        padding: 0px 0px;
+        height: 100%;
+        margin: 5px 5px 5px 5px;
+        border-radius: 0px !important;
+
+    }
+
+    .site-min-height {
+        min-height: 950px;
+    }
+
+
+
+    .table.main{
+        margin-top: -50px;
+    }
+
+
+
+    .control-label{
+        margin-bottom: 0px;
+    }
+
+    tr.total td{
+        color: green !important;
+    }
+
+    .theadd th{
+        background: #777 !important;
+    }
+
+    td{
+        font-size: 10px;
+        padding: 3px !important;
+        font-weight: bold;
+    }
+
+    .details{
+        font-weight: bold; 
+        margin-bottom: -7px;
+    }
+
+    hr{
+        border-bottom: 0px solid #f1f1f1 !important;
+    }
+
+    .corporate-id {
+        margin-bottom: 5px;
+    }
+
+    .adv-table table tr td {
+        padding: 5px 10px;
+    }
+
+    .invoice_head{
+        width: 100%;
+    }
+
+    .invoice_head_left{
+        float: left;
+        width: 60%;
+        color: #2f80bf;
+    }
+
+    .invoice_head_right{
+        float: right;
+        width: 20%;
+        margin-top: 10px;
+    }
+
+    .hr_border{
+        width: 100%;
+    }
+    .img_header{
+        width: 75%;
+        margin-top: 19px;
+    }
+
+    .print_line{
+        margin-top: 90px !important;
+    }
+    .invoice_footer{
+        margin-top: 30px !important;
+        text-align: center !important;
+    }
+    .p_details,.p_details1{
+        width: 100% !important;
+    }
+    .details_info,.details_info1{
+        width: 50%;
+    }
+    html{
+        height: 0;
+    }
+    html, body {
+        height:100vh; 
+        margin: 0 !important; 
+        padding: 0 !important;
+        overflow: hidden;
+    }
+    .test_name{
+        text-align: left;
+        margin-left: 110px;
+    }
+    .logo_print{
+        width: 22% !important;
+    }
+    .header_logo{
+        width: 100% !important;
+        margin-top: -13px;
+    }
+
+    .paid_or_due {
+        font-weight: bold;
+        font-size: 12px;
+        border: 5px solid black;
+        text-align: center;
+        width: 66%;                        
+        height: 38px;
+        margin-left: 50px;
+    }
+    div.divFooter {
+
+        font-size: 10px;
+        position: fixed;
+        bottom: 5px;
+
+        width: 100%;
+        text-align: center;
+    }
+
+}

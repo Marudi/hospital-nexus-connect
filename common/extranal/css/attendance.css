@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 6, 2021, 10:57:44 PM
+    Author     : arnab
+*/
+.row_margin{
+    margin: 15px 0px !important;
+}
+#staff_select,#attendance_month,#attendance_year,#applyAttendanceFilter{
+    width: 100% !important;
+}
+.attendanceDiv_col{
+    overflow: scroll !important;
+}
+.text_center{
+    text-align: center !important;
+}
+.markAttendance_css{
+    border: none !important; 
+    background: transparent !important;
+}
+.fa-times{
+    color: red !important;
+}
+.fa-check{
+     color: green !important;
+}
+
+.duration_select{
+    display: flex; 
+    justify-content: space-between;
+}
+.reason_class{
+    height: auto !important;
+}
+.duration_select1{
+    display: flex; 
+    justify-content: space-around;
+}
+.text-center{
+    margin: 30px 0px !important;
+}

@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 16, 2021, 5:38:18 PM
+    Author     : shaibalsaha
+*/
+.editbutton{
+    width: auto !important;
+}
+
+.delete_button{
+    width: auto !important;
+}
+
+.status{
+    background: #123412 !important;
+}
+.white-box {
+    border-radius: 8px;
+    margin-bottom: 13px;
+    padding: 0 25px;
+    background: #fff;
+}
+.selectPackage{
+    border-radius: 3px !important;
+    font-size: 12px !important;
+    /* color: #fff !important;
+    background: #00c292 !important; */
+}
+.monthly_text{
+    color:white ;
+}
+.yearly_text{
+    color:#1b7989;
+}
+.package_div{
+    margin-bottom:20px;
+}
+.package_recommend{
+    padding-bottom: 15px;
+    background: #eee;
+    margin-bottom: 0px !important;
+}
+.package_recommend1{
+    padding-bottom: 15px;
+    background: #447CE3;
+    color:#fff !important;
+    margin-bottom: 0px !important;
+}
+.module_select{
+    text-transform: capitalize; 
+    font-size: 16px; 
+    color: #447CE3;
+}
+.fa-check{
+    color:#eee !important;
+}
+.fa-times{
+    color:red !important;
+}
+.submit_button{
+    margin-left:47%;
+}
+.pricing-head h2 {
+    padding: 30px 0;
+    background: #777777;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 100;
+}
+.pricing-head h1 {
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 15px;
+    text-align: center;
+}
+.pricing-head h2 {
+    padding: 10px 0;
+    background: #777777;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 100;
+    text-align: center;
+}
+.pricing-table ul li {
+    border-bottom: 1px dotted #cccccc;
+    margin: 0 2em;
+    padding: 1em 0;
+    text-align: center;
+    font-weight: 300;
+}
+.module_select {
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #447CE3;
+}

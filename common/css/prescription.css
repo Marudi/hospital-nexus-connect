@@ -1,0 +1,72 @@
+/* Drug Interactions Styles */
+.interaction-item {
+    border-left: 4px solid #dc3545;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.warning-item {
+    border-left: 4px solid #ffc107;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.boxed-warning {
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+.general-warning {
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+.precautions {
+    background-color: #e2e3e5;
+    border: 1px solid #d6d8db;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+.interaction-item strong,
+.warning-item strong {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
+
+.interaction-item p,
+.warning-item p {
+    margin-bottom: 5px;
+}
+
+.interaction-item small,
+.warning-item small {
+    display: block;
+    margin-top: 5px;
+}
+
+.alert h5 {
+    margin-bottom: 20px;
+}
+
+.alert h5 i {
+    margin-right: 10px;
+}
+
+.alert h6 {
+    font-size: 0.9em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.mt-4 .btn {
+    margin-right: 10px;
+} 

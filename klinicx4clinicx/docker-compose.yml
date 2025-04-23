@@ -1,0 +1,81 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: klinicx_app
+    restart: unless-stopped
+    working_dir: /var/www/html
+    volumes:
+      - ./:/var/www/html
+      - ./writable:/var/www/html/writable
+    networks:
+      - klinicx_network
+    depends_on:
+      - db
+      - redis
+    environment:
+      - CI_ENVIRONMENT=production
+      - database.default.hostname=db
+      - database.default.database=klinicx_db
+      - database.default.username=klinicx_user
+      - database.default.password=klinicx_password
+      - database.default.DBDriver=MySQLi
+      - database.default.port=3306
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - REDIS_PASSWORD=redis_password
+
+  db:
+    image: mysql:8.0
+    container_name: klinicx_db
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: klinicx_db
+      MYSQL_USER: klinicx_user
+      MYSQL_PASSWORD: klinicx_password
+      MYSQL_ROOT_PASSWORD: root_password
+    volumes:
+      - dbdata:/var/lib/mysql
+    networks:
+      - klinicx_network
+    ports:
+      - "3306:3306"
+
+  redis:
+    image: redis:alpine
+    container_name: klinicx_redis
+    restart: unless-stopped
+    command: redis-server --requirepass redis_password
+    volumes:
+      - redisdata:/data
+    networks:
+      - klinicx_network
+    ports:
+      - "6379:6379"
+
+  nginx:
+    image: nginx:alpine
+    container_name: klinicx_nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    volumes:
+      - ./:/var/www/html
+      - ./docker/nginx.conf:/etc/nginx/conf.d/default.conf
+    networks:
+      - klinicx_network
+    depends_on:
+      - app
+
+networks:
+  klinicx_network:
+    driver: bridge
+
+volumes:
+  dbdata:
+    driver: local
+  redisdata:
+    driver: local

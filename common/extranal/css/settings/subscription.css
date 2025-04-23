@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 16, 2021, 4:22:03 PM
+    Author     : shaibalsaha
+*/
+.panel-primary>.panel-heading {
+    padding: 10px;
+}
+
+.panel-body {
+    background: #fff;
+}
+.white-box {
+    border-radius: 8px;
+    margin-bottom: 13px;
+    padding: 0 25px;
+    background: #fff;
+}
+.row {
+    margin-right: -7.5px;
+    margin-left: -7.5px;
+}
+.m-b-10 {
+    margin-bottom: 10px!important;
+}
+.f-15 {
+    font-size: 15px !important;
+}
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.btn-success, .btn-success.disabled {
+    background: #00c292;
+    border: 1px solid #00c292;
+    width: 116%;
+}
+.btn {
+    border-radius: 3px !important;
+}
+.package_div{
+    margin-top: -7px;
+}
+.selectPackage
+{
+    width: 44% !important;
+}
+.submit_button{
+    margin-left:47%;
+}

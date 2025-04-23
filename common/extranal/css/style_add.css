@@ -1,0 +1,19 @@
+.weather-bg {
+    background: #8175c7;
+    -webkit-border-radius: 4px 4px 0 0;
+    color: #fff;
+    text-align: center;
+   
+}
+.weather-bg .card-body {
+    
+   
+    padding: 10px !important;
+}
+/* .section_middle_child_child {
+    width: 159% !important;
+} */
+.weather-bg i {
+    font-size: 37px;
+    display: block;
+}

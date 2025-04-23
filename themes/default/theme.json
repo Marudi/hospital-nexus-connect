@@ -1,0 +1,8 @@
+{
+    "name": "Default Theme",
+    "description": "The default theme for KlinicX",
+    "version": "1.0.0",
+    "author": "KlinicX Team",
+    "website": "https://klinicx.com",
+    "customizable": true
+} 

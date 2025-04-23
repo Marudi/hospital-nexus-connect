@@ -1,0 +1,47 @@
+                 
+.sc_form_style_form_2 .sc_form_item .selectpicker,
+.countrypicker  .dropdown-toggle
+{
+           margin-bottom: 0.5em;
+           padding-left: 25px;
+}
+.dropdown-menu {
+   display: none;
+} 
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+   width: 100% !important;
+}    
+.countrypicker  .dropdown-toggle{
+   width: 100%;
+   background-color: white;
+}
+.countrypicker span{
+   color: black;
+}
+.f16 .bs-placeholder{
+
+   border: 1px solid #eee !important; 
+
+}
+.open > .dropdown-menu {
+           display: block;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
+color: #fff;
+text-decoration: none;
+outline: 0;
+background-color: #428bca;
+}
+.dropdown-menu>li>a {
+display: block;
+padding: 3px 20px;
+clear: both;
+font-weight: 400;
+line-height: 1.428571429;
+color: #333;
+white-space: nowrap;
+}
+.dropdown-toggle{
+border: 1px solid #eee !important;
+border-color: #eee !important;
+}

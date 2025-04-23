@@ -1,0 +1,353 @@
+.invoice_head_right {
+  margin-top: 10px !important;
+}
+#invoice_word {
+  margin-left: 19px !important;
+}
+.invoice_id {
+  margin-left: 18px;
+  color: #413e3e;
+}
+
+.paragraphprint {
+  top: 5px !important;
+}
+.control-label {
+  width: 57px !important;
+  font-size: 12px;
+}
+.info_text {
+  font-size: 11px;
+}
+.last_td_info {
+  margin-bottom: 10px;
+}
+.invoice_all {
+  padding: 13px 14px !important;
+}
+
+#first_td {
+  width: 17% !important;
+}
+.img_class_logo {
+  margin-top: -8px;
+}
+.second_td {
+  width: 34% !important;
+}
+.last_td {
+  width: 49% !important;
+}
+.title {
+  font-weight: 900 !important;
+  margin-top: -8px;
+}
+.table_bar {
+  width: 100%;
+  border-top: none;
+}
+.image_bar {
+  margin-top: 15px;
+  width: 195px;
+  height: 61px;
+}
+.image_text {
+  padding-left: 15px;
+}
+
+.table_item tbody td {
+  text-align: center;
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+
+.table_item .theadd th {
+  text-align: center;
+}
+.first_th {
+  padding-left: 17px !important;
+  text-align: left !important;
+}
+.amount_in_word {
+  padding-left: 7px;
+  width: 28% !important;
+}
+.amount_instrong {
+  font: 600 !important;
+}
+.amount_bottom {
+  margin-bottom: 10px;
+}
+.font_amount {
+  font-size: 10px;
+}
+
+.calculation_second {
+  width: 22% !important;
+}
+.calculation_third {
+  width: 43% !important;
+}
+.info_text1 {
+  width: 57px;
+}
+.label_other {
+  width: 133px;
+  font-size: 12px;
+}
+.value_font {
+  font-weight: 600;
+}
+table.scroll {
+  width: 100%; /* Optional */
+  /* border-collapse: collapse; */
+  border-spacing: 0;
+}
+
+/* table.scroll tbody,
+table.scroll thead {
+  display: block;
+} */
+
+thead tr th {
+  height: 30px;
+  line-height: 30px;
+  /*text-align: left;*/
+}
+
+table.scroll tbody {
+  min-height: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.first_th {
+  width: 3% !important;
+}
+.second_th {
+  width: 15% !important;
+}
+.description_th {
+  width: 38% !important;
+}
+.third_th {
+  width: 19% !important;
+}
+.service_th {
+  width: 12% !important;
+}
+.amount_th {
+  width: 23% !important;
+}
+tbody td:last-child,
+thead th:last-child {
+  border-right: none;
+}
+p {
+  margin: 0 0 0px;
+}
+@media screen {
+  .panel {
+    border: 0px solid #5c5c47;
+    background: #fff !important;
+    height: 100%;
+    margin: 20px 5px 5px 5px;
+    border-radius: 0px !important;
+    min-height: 700px;
+  }
+  .theadd {
+    background: #f1f2f7 !important;
+    height: 34px !important;
+    /* margin-top: 100px!important; */
+  }
+  table {
+    border-collapse: collapse;
+    border: 1px solid #000000;
+    padding: 3px;
+  }
+  .tr_info {
+  border-bottom: 1px solid #000000;
+    }
+  .panel-body {
+    padding: 17px 15px !important;
+  }
+  .invoice_footer {
+    margin-bottom: 10px;
+    font-size: 12px;
+    position: relative;
+    text-align: center;
+    padding-top: 10px !important;
+    padding-left: 5px !important ;
+  }
+  .table-striped {
+    border: 1px solid #000000;
+    margin-bottom: 9px !important;
+    font-size: 9px !important;
+  }
+  .testgh{
+      display: none;
+  }
+}
+.send {
+  background-color: #339fcc !important;
+  color: #ffffff;
+  margin-right: 10px;
+  height: 33px;
+}
+
+.option_button {
+  margin-top: 20px;
+}
+@media screen {
+  .paragraphprint1{
+    margin-left: 23%  !important;
+  } 
+}
+
+@media print {
+
+  #main-content {
+    padding-top: 0px;
+  }
+  .table_item {
+    text-align: center;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #000000 !important;
+    
+  }
+  .theadd {
+    background: #f1f2f7 !important;
+    height: 34px !important;
+    /* margin-top: 100px!important; */
+  }
+  .page_breaker{
+       margin-top:400px; 
+       page-break-after:always;
+       border-bottom: 1px solid black;
+  }
+  #invoice {
+    height: auto !important;
+  }
+  table.scroll{
+       margin-top: 230px;
+  }
+  table.scroll tbody {
+    min-height:  auto !important;
+    overflow-y: auto;
+    overflow-x: hidden;
+   
+   }
+   .table_bar{
+    padding-bottom: 300px !important;
+   }
+  .invoice_footer {
+    right: 0;
+    height: 50px;
+    position: fixed !important;
+    bottom: 0 !important;
+    text-align: center;
+   
+   
+  }
+  
+  .img_class_logo {
+    margin-top: -8px;
+    width: 120px;
+    padding-left: 3px !important;
+  }
+  p {
+    margin: 0 0 0px;
+  }
+  .theadd {
+    /* background: #929292 !important;
+    /* margin-top: 20px!important; */
+    -webkit-print-color-adjust: exact; */
+  }
+  .table-striped {
+    -webkit-print-color-adjust: exact;
+    padding-left: 3px;
+    border: none !important;
+    font-size: 9px !important;
+  }
+  .title {
+    font-weight: 900 !important;
+    margin-top: -8px;
+  }
+  h4 {
+    margin-top: 0px !important;
+  }
+  .control-label {
+    width: 50px !important;
+    font-size: 12px;
+  }
+  .info_text {
+    font-size: 11px;
+  }
+  .panel {
+    background: #fff !important;
+    margin-top: -30px;
+    height: 100%;
+    //border: 1px solid #000000;
+    -webkit-print-color-adjust: exact;
+    border-radius: 1px !important;
+  }
+  .image_bar {
+    margin-top: 15px;
+    margin-bottom: 15px!important;
+    width: 195px;
+    height: 61px !important;
+  }
+  .panel-body {
+    padding: 0px 0px !important;
+  }
+  .invoice_head_right {
+    margin-top: 10px !important;
+  }
+  .last_td {
+    width: 100% !important;
+  }
+  .paragraphprint {
+    top: 10px !important;
+  }
+  table {
+    width: 100% !important;
+    padding: 0% !important;
+    border-collapse: collapse;
+  }
+  .info_test {
+    float: left !important;
+  }
+
+  .col-md-6 {
+    width: 50% !important;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+  table{
+      border-left: none !important;
+      border-right: none !important;
+  }
+  .tr_info {
+   border-bottom: 1px solid #000000;
+   margin-right: 100px;
+}
+  #invoice_header{
+      top: 50px;
+      position: fixed;
+      height: 150px;
+      
+  }
+/*  .empty-header, .empty-footer {
+height:1000px;
+}*/
+  #main-content {
+   // height: 100vh;
+    min-height: 100vh;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+    position: absolute;
+    border: none;
+  }
+}

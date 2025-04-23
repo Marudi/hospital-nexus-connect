@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 9, 2021, 12:48:54 PM
+    Author     : arnab
+*/
+.section_top {
+  margin-left: -28px !important;
+}
+.section_top_child {
+  font-size: 18px !important;
+  margin-top: 19px;
+  padding-top: 14px;
+  margin-bottom: -19px;
+}
+.panel-heading {
+  background: #eee !important;
+}
+.form-group {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.profile-nav_aside {
+  padding-right: 7px !important;
+}
+.form_style,
+#package_select,
+#subscription {
+  background: #eee !important;
+}
+.btn-default {
+  color: #000 !important;
+  margin-top: 0;
+  height: 37px !important;
+}
+.dropdown-toggle {
+  background: #eeeeee;
+}
+.bootstrap-select {
+  background: #eee;
+}
+.button_div {
+  padding-left: 55px;
+}
+.submit_button {
+  border-radius: 12px !important;
+}
+.section_middle {
+  margin-top: 184px !important;
+  padding-left: 29px !important;
+}
+.section_middle_child {
+  font-size: 12px !important;
+  font-weight: 200 !important;
+}
+/* .section_middle_child_child {
+  width: 159% !important;
+} */
+.degree {
+  font-size: 20PX !important;
+}

@@ -1,0 +1,14 @@
+.git
+.gitignore
+.env
+.env.*
+docker-compose.yml
+Dockerfile
+docker/
+writable/
+vendor/
+node_modules/
+*.log
+README.md
+tests/
+docs/ 
